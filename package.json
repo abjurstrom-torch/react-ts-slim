@@ -1,7 +1,7 @@
 {
-  "name": "typescript-react-project",
+  "name": "@services-and-tools/react-ts-slim",
   "version": "1.0.0",
-  "description": "Using typescript with React",
+  "description": "React driven typescript boilerplate",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,8 +12,12 @@
     "format": "prettier --write \"./src/**/*.ts\" \"./src/**/*.tsx\"",
     "format-check": "prettier --check \"./src/**/*.ts\" \"./src/**/*.tsx\""
   },
-  "author": "Samuel Ogundipe",
-  "license": "ISC",
+  "repository": {
+    "url": "https://goomba.torch2003.com/services-and-tools/react-ts-slim",
+    "type": "git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
   "dependencies": {
     "@types/react": "^17.0.14",
     "@types/react-dom": "^17.0.9",
