@@ -1,28 +1,16 @@
-## React tyoescript tutorial 
+# React TS Slim
 
-To run this repository, if you do not have typescript installed, run:
+Run the following to be up and running in seconds:
 
-```
-npm install -g typescript
-```
-
-Then link typescript:
-
-```
-npm link typescript
+```bash
+yarn install
+yarn start
 ```
 
-install dependencies:
+Edit as needed. Good luck!
 
-```
-npm i 
-```
+## FAQ
 
-build the bundle:
-```
-npm run magic 
-```
+### Why not use create-react-app?
 
-Open the `index.html` file in the root in a browser and see i works. 
-
-Full tutorial can be found [here](#):
+CRA is great at some things, but it is massive. As an example the CRA `webpack.config.js` file is 760 lines long and you can't edit it without opting completely out of the system. This project has a `webpack.config.js` that is 21 lines. Yes CRA does a lot, but it comes with a cost.
